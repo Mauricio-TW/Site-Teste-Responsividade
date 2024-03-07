@@ -1,0 +1,21 @@
+Atividade individual.
+
+Desenvolver uma página (index), responsível, utilizando texto, imagens, vídeos e etc.
+
+Tema da página: Escolher um desenho que marcou a sua infância, série ou filme.
+
+Observação:
+* Utilizar para criação da página HTML e CSS (não pode utilizar Bootstrap);
+* Deve-se utilizar o media query para responsividade da página;
+* A página não precisa de menu nesse momento, mas será desenvolvido no futuro.
+
+Dicas:
+* Planejar o layout da página criando um esboço (desenho técnico);
+* Coletar todo material necessário que será utilizado na criação da página (textos, imagens, links de vídeos e etc);
+* Após realizar o planejamento do layout e coleta dos materiais, iniciar a criação da página
+
+Prazo para entrega da atividade - 2 dias
+Enviar atividade por e-mail:
+mglmatiolla@gmail.com
+Assunto: Primeira atividade turma DEV3M221
+Corpo do e-mail: nome do aluno(a) + anexo do projeto compactado ou link para download
