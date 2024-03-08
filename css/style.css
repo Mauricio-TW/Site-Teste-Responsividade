@@ -35,6 +35,12 @@ Section 1*/
     margin: 0 5px;
 }
 
+#intro h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
 /*Section 2*/
 #columns {
     display: flex;
@@ -44,12 +50,15 @@ Section 1*/
 article {
     flex: 1;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .column1, .column2, .column3, .column4 {
     background-color: #000000;
     padding: 20px;
     font-family: Arial, sans-serif;
+    height: 100%;
 }
 
 .column1 img,
@@ -108,6 +117,8 @@ footer #logo {
     max-width: 100px; 
     height: auto;
 }
+
+/*Responsividade*/
 
 @media all and (max-width: 600px) {
     body {
