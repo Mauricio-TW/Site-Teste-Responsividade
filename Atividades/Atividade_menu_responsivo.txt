@@ -1,0 +1,12 @@
+Atividade.
+
+Desenvolver o menu responsivo para sua página criada na atividade anterior
+
+O menu deve conter os seguintes nomes:
+História - Episódios - Curiosidades - Personagens
+
+Prazo para entrega da atividade - 2 dias
+Enviar atividade por e-mail:
+mglmatiolla@gmail.com
+Assunto: Segunda atividade turma 
+Corpo do e-mail: nome do aluno(a) + anexo do projeto compactado ou link para download
