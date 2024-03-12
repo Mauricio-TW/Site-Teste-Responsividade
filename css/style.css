@@ -1,6 +1,7 @@
 body {
-    background-color: #3a266d;
-    color: white;
+    background-color: #3a266d; 
+    color: white; 
+    font-family: Arial, sans-serif;
 }
 
 /*Header*/
@@ -9,19 +10,89 @@ header {
     background-color: #000000;
     text-align: center;
 }
+
 #imgheader {
     display: block;
     margin: 0 auto;
 }
 
-hr{
-    color: #000000;
+hr {
+    color: #000000; 
     background-color: #000000;
-    height: 5px;  
+    height: 5px;
 }
 
 nav {
     width: 100%;     
+}
+
+/*Menu*/
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul {
+    list-style: none;
+    position: relative;
+}
+
+#menu ul li {
+    width: 120px;
+    float: left;
+}
+
+#menu a {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+}
+
+#menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+}
+
+#menu a:hover {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+#menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+
+#menu ul ul li a {
+    background-color: green;
+}
+
+label[for="bt_menu"] {
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+}
+
+#bt_menu {
+    display: none;
+}
+
+label[for="bt_menu"] {
+    display: none;
 }
 
 /*Section 1*/
@@ -102,24 +173,13 @@ footer {
     padding: 20px;
 }
 
-.footer .icon {
-    color: #ffffff;
-    font-size: 24px;
-    margin: 0 5px;
-}
-
-footer p {
-    margin-top: 20px;
-}
-
 footer #logo {
-    max-width: 100px; 
+    max-width: 100px;
     height: auto;
 }
 
 /*Responsividade*/
-
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
     body {
         padding: 10px;
     }
@@ -158,5 +218,35 @@ footer #logo {
     .video-container iframe {
         width: 100%;
         height: auto;
+    }
+}
+
+/*Menu*/
+@media (max-width: 800px) {
+    label[for="bt_menu"] {
+        display: block;
+    }
+    #bt_menu:checked ~ #menu {
+        margin: 0;
+        height: auto;
+    }
+    #menu {
+        margin-left: -100%;
+        transition: all 1s;
+        height: 0;
+    }
+    #menu ul li {
+        width: 100%;
+        float: none;
+    }
+    #menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all 4s;
+    }
+    #menu ul li:hover ul {
+        height: auto;
+        max-height: 200px;
     }
 }
